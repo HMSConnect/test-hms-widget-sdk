@@ -35,7 +35,11 @@ $ npm i
 $ npm run dev
 ```
 
-Enjoy the widget
+Enjoy the widget via
+
+```
+http://localhost:3000
+```
 
 ## License
 
