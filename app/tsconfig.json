@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "baseUrl": "./",
+    "paths": {
+      "@environment": ["./config/environment"],
+      "@adapters/*": ["./adapters/*"],
+      "@assets/*": ["./assets/*"],
+      "@components/*": ["./components/*"],
+      "@config": ["./config"],
+      "@config/*": ["./config/*"],
+      "@data-managers/*": ["./data-managers/*"],
+      "@init/*": ["./init/*"],
+      "@models/*": ["./models/*"],
+      "@pages/*": ["./pages/*"],
+      "@routes/*": ["./routes/*"],
+      "@services/*": ["./services/*"],
+      "@static/*": ["./static/*"],
+      "@utils": ["./utils"],
+      "@utils/*": ["./utils/*"],
+      "@validators/*": ["./validators/*"],
+      "@app/*": ["./*"]
+    },
+    "plugins": [
+      {
+        "name": "typescript-tslint-plugin"
+      }
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true
+  },
+  "exclude": ["node_modules", "**/__mocks__"],
+  "include": ["next-env.d.ts", "global.d.ts", "**/*.ts", "**/*.tsx"]
+}

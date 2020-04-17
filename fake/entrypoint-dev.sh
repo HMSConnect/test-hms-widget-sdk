@@ -1,0 +1,1 @@
+export FAKE_PORT=$FAKE_PORT && (npm run dev)

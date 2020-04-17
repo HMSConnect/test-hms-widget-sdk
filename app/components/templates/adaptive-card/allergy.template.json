@@ -1,0 +1,109 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "{title}",
+                  "horizontalAlignment": "Left",
+                  "size": "Medium",
+                  "weight": "Bolder"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "style": "good",
+      "bleed": true
+    },
+    {
+      "type": "ColumnSet",
+      "$data": "{results}",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": 2,
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "{display}",
+                      "wrap": true,
+                      "horizontalAlignment": "Left",
+                      "size": "Medium",
+                      "color": "{criticality}",
+                      "weight": "Bolder"
+                    }
+                  ],
+                  "height": "stretch",
+                  "horizontalAlignment": "Left",
+                  "verticalContentAlignment": "Center"
+                },
+                {
+                  "type": "Column",
+                  "width": 1,
+                  "items": [
+                    {
+                      "type": "ColumnSet",
+                      "columns": [
+                        {
+                          "type": "Column",
+                          "width": "stretch",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "{category}",
+                              "horizontalAlignment": "center",
+                              "size": "Medium"
+                            }
+                          ],
+                          "horizontalAlignment": "Center"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": 2,
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "{assertedDate}",
+                      "size": "Medium",
+                      "wrap": true,
+                      "horizontalAlignment": "Center"
+                    }
+                  ],
+                  "horizontalAlignment": "Center",
+                  "verticalContentAlignment": "Center"
+                }
+              ],
+              "style": "emphasis"
+            }
+          ],
+          "width": "stretch",
+          "verticalContentAlignment": "Center",
+          "horizontalAlignment": "Center"
+        }
+      ]
+    }
+  ],
+  "version": "1.0",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+}

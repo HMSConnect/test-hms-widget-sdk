@@ -1,0 +1,49 @@
+{
+    "resourceType": "Diagnosis",
+    "hn": "15-99-999999",
+    "en": "O15-99-999999",
+    "assertedDate": "2013-10-01T10:01:17",
+    "clinicalStatus": "active",
+    "verificationStatus": "confirmed",
+    "asserter": "015999999",
+    "identifier": [
+        {
+            "type": "PatientProblemUID",
+            "value": "292"
+        }
+    ],
+    "severity": {
+        "code": "",
+        "display": ""
+    },
+    "bodySite": {
+        "code": "NOSE",
+        "display": "NOSE"
+    },
+    "code": [
+        {
+            "code": "J34",
+            "display": "Other disorders of nose and nasal sinuses",
+            "system": "icd10",
+            "onsetDatetime": "2013-10-01T16:13:17",
+            "onsetDuration": "",
+            "onsetUnit": ""
+        }
+    ],
+    "category": [
+        {
+            "code": "SECDIAG",
+            "display": "Other Classification"
+        }
+    ],
+    "comments": [
+        "Abscess, furuncle and carbuncle of nose"
+    ],
+    "organization": {
+        "codeNumber": "015",
+        "codeName": "BRH",
+        "name": "Bangkok Hospital Rayong",
+        "latitude": "",
+        "longitude": ""
+    }
+}

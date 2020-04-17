@@ -1,0 +1,130 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+      {
+        "type": "Container",
+        "items": [
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "{title}",
+                    "horizontalAlignment": "Left",
+                    "size": "Medium",
+                    "weight": "Bolder"
+                  }
+                ]
+              },
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Issued : {issued}",
+                    "weight": "Lighter",
+                    "horizontalAlignment": "Right"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "style": "good",
+        "bleed": true
+      },
+      {
+        "type": "ColumnSet",
+        "$data": "{results}",
+        "columns": [
+          {
+            "type": "Column",
+            "items": [
+              {
+                "type": "ColumnSet",
+                "columns": [
+                  {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                      {
+                        "type": "TextBlock",
+                        "text": "{display}",
+                        "wrap": true,
+                        "horizontalAlignment": "Left",
+                        "size": "Medium"
+                      }
+                    ],
+                    "height": "stretch",
+                    "horizontalAlignment": "Left",
+                    "verticalContentAlignment": "Center"
+                  },
+                  {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                      {
+                        "type": "ColumnSet",
+                        "columns": [
+                          {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                              {
+                                "type": "TextBlock",
+                                "text": "{value}",
+                                "size": "Medium",
+                                "color": "Accent",
+                                "weight": "Bolder"
+                              }
+                            ],
+                            "horizontalAlignment": "Center"
+                          },
+                          {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                              {
+                                "type": "TextBlock",
+                                "text": "{unit}",
+                                "horizontalAlignment": "Right"
+                              }
+                            ],
+                            "horizontalAlignment": "Center",
+                            "verticalContentAlignment": "Center"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "width": "stretch",
+            "verticalContentAlignment": "Center",
+            "horizontalAlignment": "Center"
+          }
+        ]
+      },
+      {
+        "type": "ActionSet",
+        "actions": [
+          {
+            "type": "Action.Submit",
+            "title": "Show All"
+          }
+        ],
+        "horizontalAlignment": "Right",
+        "separator": true,
+        "$when": "{isShowAction}"
+      }
+    ],
+    "version": "1.0",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+  }
+  

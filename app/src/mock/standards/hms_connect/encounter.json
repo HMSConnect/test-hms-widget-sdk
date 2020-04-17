@@ -1,0 +1,85 @@
+{
+    "resourceType": "Encounter",
+    "en": "O15-99-999999",
+    "hn": "15-99-999999",
+    "identifier": [
+        {
+            "type": "outpatient",
+            "value": "O15-99-999999",
+            "start": "",
+            "end": ""
+        }
+    ],
+    "identifierHistory": [
+        {
+            "type": "outpatient",
+            "value": "O15-99-999999",
+            "start": "",
+            "end": ""
+        }
+    ],
+    "period": [
+        {
+            "status": "discharged",
+            "start": "2019-08-30T06:25:00",
+            "end": "2019-09-02T20:40:00"
+        }
+    ],
+    "priority": [
+        {
+            "code": "4",
+            "display": "Semi-Urgent"
+        }
+    ],
+    "location": [
+        {
+            "bedId": "CC223",
+            "bedName": "CC223",
+            "roomId": "CC223",
+            "roomName": "CC223",
+            "wardId": "05CCU",
+            "wardName": "C.C.U.",
+            "siteId": "5002",
+            "siteName": "Cardiac Care Unit",
+            "start": "2017-10-11T23:55:00",
+            "end": "2017-10-12T12:55:21"
+        }
+    ],
+    "discharge": [
+        {
+            "expectedDischargeDatetime": "2019-09-02T11:40:00",
+            "medicalDischargeDatetime": "2019-09-02T11:40:00",
+            "financialDischargeDatetime": "2019-09-04T21:43:07",
+            "dischargeDatetime": "2019-09-02T20:40:00",
+            "dischargeCondition": "",
+            "dischargeType": ""
+        }
+    ],
+    "participant": [
+        {
+            "employeeId": "59999999",
+            "careProviderId": "0599999",
+            "typeDisplay": "primary performer",
+            "preferred": true
+        }
+    ],
+    "extension": [
+        {
+            "isTrauma": false,
+            "agent": "Other - สปสช โรงพยาบาลวชิระ",
+            "dayCase": "",
+            "indicationForAdmission": "",
+            "additionalNote": "",
+            "expectedLOS": "",
+            "privateCase": ""
+        }
+    ],
+    "reason": "Non Trauma",
+    "organization": {
+        "codeNumber": "015",
+        "codeName": "BRH",
+        "name": "Bangkok Hospital Rayong",
+        "latitude": "",
+        "longitude": ""
+    }
+}

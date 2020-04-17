@@ -1,0 +1,101 @@
+{
+    "resourceType": "Practitioner",
+    "employeeId": "015099999",
+    "careProviderId": "0599999",
+    "identifier": [
+        {
+            "type": "care_provider_code",
+            "value": "0599999",
+            "start": "2013-03-22T10:18:11",
+            "end": ""
+        },
+        {
+            "type": "employee_id",
+            "value": "015099999",
+            "start": "2013-03-22T10:18:11",
+            "end": ""
+        },
+        {
+            "type": "his_code",
+            "value": "150999",
+            "start": "2013-03-22T10:18:11",
+            "end": ""
+        }
+    ],
+    "active": true,
+    "gender": "female",
+    "birthDate": "1982-06-01",
+    "licenseNo": "ว.99999",
+    "name": [
+        {
+            "text": "นาง มานะ มานี",
+            "prefix": "นาง",
+            "givenName": "มานะ",
+            "middleName": "",
+            "familyName": "มานี"
+        }
+    ],
+    "telecom": [
+        {
+            "type": "mobile",
+            "value": "0899999999"
+        }
+    ],
+    "qualification": [
+        {
+            "code": "Doctor",
+            "display": "Doctor"
+        }
+    ],
+    "specialty": [
+        {
+            "code": "65",
+            "display": "อายุรกรรม"
+        }
+    ],
+    "role": [
+        {
+            "code": "CPTEN24",
+            "display": "Medical Doctor"
+        }
+    ],
+    "location": [
+        {
+            "bedId": null,
+            "bedName": null,
+            "roomId": null,
+            "roomName": null,
+            "wardId": "15MED",
+            "wardName": "Medicine and Sub-board Unit",
+            "siteId": null,
+            "siteName": null,
+            "start": "2017-10-11T23:55:00",
+            "end": "2017-10-12T12:55:21"
+        }
+    ],
+    "schedule": [
+        {
+            "startDate": "",
+            "endDate": "",
+            "startTime": "08:00:00",
+            "endTime": "17:00:00",
+            "weekDay": "Wednesday",
+            "active": true
+        },
+        {
+            "startDate": "",
+            "endDate": "",
+            "startTime": "08:00:00",
+            "endTime": "12:00:00",
+            "weekDay": "Saturday",
+            "active": true
+        }
+    ],
+    "organization": {
+        "codeNumber": "015",
+        "codeName": "BRH",
+        "name": "Bangkok Hospital Rayong",
+        "latitude": "",
+        "longitude": ""
+    }
+}

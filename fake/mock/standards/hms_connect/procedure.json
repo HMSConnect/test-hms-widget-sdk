@@ -1,0 +1,82 @@
+{
+    "resourceType": "Procedure",
+    "hn": "15-99-999999",
+    "en": "O15-99-999999",
+    "identifier": [
+        {
+            "type": "PatientProcedureListUID",
+            "value": "19"
+        }
+    ],
+    "status": "",
+    "category": [
+        {
+            "code": "PRIMA",
+            "display": "Primary"
+        },
+        {
+            "code": "LEVL 1",
+            "display": "Major"
+        }
+    ],
+    "code": [
+        {
+            "code": "744",
+            "display": "Cesarean section of other specified type",
+            "system": "icd9"
+        }
+    ],
+    "performedStartDateTime": "2013-10-03T08:30:00",
+    "performedEndDateTime": "2013-10-03T09:20:00",
+    "asserter": "",
+    "performer": [
+        {
+            "function": "",
+            "actor": "",
+            "onBehalfOf": ""
+        }
+    ],
+    "location": [
+        {
+            "bedId": null,
+            "bedName": null,
+            "roomId": null,
+            "roomName": null,
+            "wardId": null,
+            "wardName": null,
+            "siteId": null,
+            "siteName": null,
+            "start": null,
+            "end": null
+        }
+    ],
+    "reasonCode": "",
+    "bodySite": [
+        {
+            "code": "ABDOM",
+            "display": "Abdomen"
+        }
+    ],
+    "outcome": "",
+    "complication": "",
+    "complicationDetail": "",
+    "followUp": "",
+    "comments": [
+        "Dx. G2P1GA38 Wks. with  previus C/S  Op. C/S  with TR"
+    ],
+    "focalDevice": [
+        {
+            "action": "",
+            "manipulated": ""
+        }
+    ],
+    "usedReference": "",
+    "usedCode": "",
+    "organization": {
+        "codeNumber": "015",
+        "codeName": "BRH",
+        "name": "Bangkok Hospital Rayong",
+        "latitude": "",
+        "longitude": ""
+    }
+}
